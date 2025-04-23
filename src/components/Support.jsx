@@ -10,7 +10,7 @@ const Support = () => {
               Care Me Supplier Support <br /> Available 24/7
             </h2>
           </div>
-          <div className="md:w-1/2 space-y-4">
+          <div className="md:w-1/2 md:space-y-4 space-y-6">
             <p className="text-gray-600">
               Meesho supplier support is available to solve all your doubts and
               issues before and after you start your online selling business.

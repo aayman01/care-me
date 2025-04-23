@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar"
 import PopularCategories from "./components/PopularCategories"
 import Scores from "./components/Scores"
@@ -14,6 +15,7 @@ function App() {
         <PopularCategories />
       </div>
       <Support/>
+      <Footer/>
     </section>
   );
 }

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme{
-    --color-primary: #450000;
+    --color-primary: #5E0523;
 }
 
 :root{  
