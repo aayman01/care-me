@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar"
+import Scores from "./components/Scores"
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <Navbar/>
+      <Scores/>
     </>
   )
 }
