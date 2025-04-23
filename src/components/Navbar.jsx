@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
       <nav className="relative">
         {/* Main Navbar */}
-        <div className="flex justify-between items-center py-4 px-4 md:px-6 lg:px-8">
+        <div className="flex justify-between items-center py-4">
           <div className="text-2xl md:text-3xl font-bold text-primary">
             Care Me
           </div>
@@ -41,11 +41,11 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Buttons */}
-          <div className="hidden lg:flex space-x-4">
+          <div className="hidden lg:flex space-x-4 font-medium">
             <button className="px-6 py-2 border-2 text-primary hover:bg-primary hover:text-white transition-colors duration-300 rounded-md hover:border-primary">
               Login
             </button>
-            <button className="px-6 py-2 font-medium bg-primary text-white rounded-md hover:bg-white hover:text-primary hover:border-primary border-2 transition-colors duration-300 border-primary">
+            <button className="px-6 py-2  bg-primary text-white rounded-md hover:bg-white hover:text-primary hover:border-primary border-2 transition-colors duration-300 border-primary">
               Start Selling
             </button>
           </div>
@@ -71,7 +71,7 @@ const Navbar = () => {
               Shipping & Returns
             </a>
             <div className="flex flex-col space-y-2">
-              <button className="px-6 py-2 border-2 text-primary hover:bg-primary hover:text-white transition-colors duration-300 rounded-md hover:border-primary">
+              <button className="px-6 py-2 font-medium border-2 text-primary hover:bg-primary hover:text-white transition-colors duration-300 rounded-md hover:border-primary">
                 Login
               </button>
               <button className="px-6 py-2 font-medium bg-primary text-white rounded-md hover:bg-white hover:text-primary hover:border-primary border-2 transition-colors duration-300 border-primary">
