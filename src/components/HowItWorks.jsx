@@ -37,7 +37,7 @@ const steps = [
 
 const HowItWorks = () => {
     return (
-      <div className="bg-blue-50 p-4 md:p-8 my-20 rounded-md">
+      <div className="bg-blue-50 p-4 md:p-8 mb-20 mt-15 rounded-md">
         {/* Steps with numbers - Hidden on mobile, visible on md and up */}
         <div className="hidden md:flex items-center justify-center flex-wrap gap-8 mb-8">
           {[1, 2, 3, 4, 5].map((step, index) => (

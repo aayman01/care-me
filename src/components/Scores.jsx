@@ -26,7 +26,7 @@ const scores = [
 
 const Scores = () => {
     return (
-      <div className="lg:flex items-center justify-between gap-4 ">
+      <div className="lg:flex items-center justify-between gap-4 mt-10">
         {scores.map((score) => (
           <div
             key={score.id}

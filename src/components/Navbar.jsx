@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
       <nav className="relative">
         {/* Main Navbar */}
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-5 px-4 lg:px-8 bg-white shadow-md z-[500] sm:mb-10">
           <div className="text-2xl md:text-3xl font-bold text-primary">
             Care Me
           </div>
