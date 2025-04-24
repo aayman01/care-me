@@ -1,5 +1,5 @@
 import Banner from "./components/Banner";
-import ExclusiveSupplier from "./components/Exclusivesupplier";
+import ExclusiveSupplier from "./components/ExclusiveSupplier";
 import Footer from "./components/Footer";
 import HowItWorks from "./components/HowItWorks";
 import Navbar from "./components/Navbar"
