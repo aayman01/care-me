@@ -4,7 +4,7 @@ import banner from "../assets/banner.avif"
 const Banner = () => {
   return (
     <div className="w-full relative bg-gradient-to-r from-[#F5E6E6] to-[#750028]/10 overflow-hidden">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-8 relative z-10">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between sm:mt-10 px-8 relative z-10">
         {/* Left content */}
         <div className="md:w-1/2 space-y-6">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900">

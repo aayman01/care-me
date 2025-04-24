@@ -7,14 +7,14 @@ const Navbar = () => {
     return (
       <nav className="relative">
         {/* Main Navbar */}
-        <div className="flex justify-between items-center py-5 px-4 lg:px-8 bg-white shadow-md z-[500] sm:mb-10">
+        <div className="flex justify-between items-center py-5 px-4 lg:px-8 bg-white shadow-md relative z-50">
           <div className="text-2xl md:text-3xl font-bold text-primary">
             Care Me
           </div>
 
           {/* Hamburger Menu Button */}
           <button
-            className="lg:hidden"
+            className="lg:hidden z-50"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? (
@@ -53,11 +53,11 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <div
-          className={`lg:hidden absolute w-full bg-white shadow-lg transition-all duration-300 ease-in-out ${
-            isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
+          className={`lg:hidden fixed top-0 left-0 w-full h-screen bg-white shadow-lg transition-transform duration-300 ease-in-out z-40 ${
+            isMenuOpen ? "translate-y-0" : "-translate-y-full"
           }`}
         >
-          <div className="flex flex-col px-4 py-4 space-y-4">
+          <div className="flex flex-col px-4 py-20 space-y-4">
             <a href="#" className="text-black hover:text-primary">
               Sell Online
             </a>
