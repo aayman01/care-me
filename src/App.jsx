@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import PopularCategories from "./components/PopularCategories"
 import Scores from "./components/Scores"
 import Support from "./components/Support";
+import WhySupplier from "./components/WhySupplier";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <div className="container mx-auto px-4 md:px-4 lg:px-5">
         <Navbar />
         <Scores />
+        <WhySupplier/>
         <PopularCategories />
         <HowItWorks />
       </div>
