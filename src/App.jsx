@@ -1,4 +1,5 @@
 import Footer from "./components/Footer";
+import HowItWorks from "./components/HowItWorks";
 import Navbar from "./components/Navbar"
 import PopularCategories from "./components/PopularCategories"
 import Scores from "./components/Scores"
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <Scores />
         <PopularCategories />
+        <HowItWorks />
       </div>
       <Support/>
       <Footer/>
