@@ -1,3 +1,4 @@
+import ExclusiveSupplier from "./components/Exclusivesupplier";
 import Footer from "./components/Footer";
 import HowItWorks from "./components/HowItWorks";
 import Navbar from "./components/Navbar"
@@ -11,15 +12,18 @@ function App() {
 
   return (
     <section>
-      <div className="container mx-auto px-4 md:px-4 lg:px-5">
+      <section className="container mx-auto px-4 md:px-4 lg:px-5">
         <Navbar />
         <Scores />
-        <WhySupplier/>
+        <WhySupplier />
+      </section>
+      <ExclusiveSupplier />
+      <section className="container mx-auto px-4 md:px-4 lg:px-5">
         <PopularCategories />
         <HowItWorks />
-      </div>
-      <Support/>
-      <Footer/>
+      </section>
+      <Support />
+      <Footer />
     </section>
   );
 }

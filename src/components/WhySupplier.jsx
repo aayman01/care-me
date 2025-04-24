@@ -7,7 +7,7 @@ const WhySupplier = () => {
     return (
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8 px-2 md:px-8 py-12">
         <div className="lg:w-1/2">
-          <h1 className="text-primary text-3xl mb-2 font-bold">
+          <h1 className="text-primary text-4xl mb-2 font-bold">
             Why Suppliers Love Care Me
           </h1>
           <p className="text-gray-600 text-sm font-medium">
